@@ -1,0 +1,82 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    border-radius: 15px;
+    width: 500px;
+    margin: auto;
+    height: auto;
+    background-color: var(--terciario);
+
+    /* Centrando el formulario en la pantalla */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Añade sombra para mejor visibilidad */
+}
+
+
+h1 {
+    text-align: center;
+    color: var(--primario);
+    font-size: 4rem;
+    font-family: var(--fuentePrincipal);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > label {
+    font-size: 1rem;
+    font-family: var(--fuenteParrafos);
+    font-weight: 600px;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+form > input[type="email"],
+form >  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-family: var(--fuenteParrafos);
+}
+
+form > input:focus {
+    border-color: #005bb5;
+    outline: none;
+    box-shadow: 0 0 6px rgba(0, 91, 181, 0.3);
+}
+
+form > button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--secundario);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: var(--textoOscuro);
+}
+
+button:hover {
+    background-color: var(--primario);
+    color: var(--terciario);
+}
+
+button:active {
+    background-color: var(--primario);
+}
+

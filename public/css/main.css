@@ -1,0 +1,21 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+section > h2{
+    font-size: 2rem;
+    font-family: var(--fuentePrincipal);
+    color: var(--primario);
+}
+
+section > p{
+    font-size: 1.2rem;
+    font-family: var(--fuenteParrafos);
+    color: var(--textoOscuro);
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+        /* Estilos del body para centrar contenido */
+        body {
+            display: flex;
+            flex-direction: column; /* Mantén el header en la parte superior */
+            min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* Contenedor principal que centra el formulario */
+        .main-content {
+            display: flex;
+            justify-content: center; /* Centrado horizontal */
+            align-items: center; /* Centrado vertical */
+            flex: 1; /* Ocupa todo el espacio disponible debajo del header */
+        }
+
+        /* Estilos del formulario */
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            gap: 1.5rem;
+            border-radius: 15px;
+            width: 500px;
+            background-color: var(--terciario);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+        }
+
+        /* Títulos */
+        h1 {
+            text-align: center;
+            color: var(--primario);
+            font-size: 2rem;
+            font-family: var(--fuentePrincipal);
+            margin-bottom: 1rem;
+        }
+
+        /* Estilos del formulario */
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        form > label {
+            font-size: 1rem;
+            font-family: var(--fuenteParrafos);
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        form > input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 16px;
+            font-size: 1rem;
+            font-family: var(--fuenteParrafos);
+            box-sizing: border-box;
+        }
+
+        form > input:focus {
+            border-color: var(--primario);
+            outline: none;
+            box-shadow: 0 0 6px rgba(0, 91, 181, 0.3);
+        }
+
+        form > button {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--secundario);
+            border: none;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            color: var(--textoOscuro);
+        }
+
+        form > button:hover {
+            background-color: var(--primario);
+            color: var(--terciario);
+        }
+
+        form > button:active {
+            background-color: var(--primario);
+            opacity: 0.9;
+        }

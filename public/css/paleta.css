@@ -1,0 +1,12 @@
+:root {
+    /* Fuentes */
+    --fuentePrincipal: 'PT Sans', Arial, sans-serif;
+    --fuenteParrafos: 'Open Sans', Helvetica, sans-serif;
+
+     /* Paleta de colores */
+    --primario: #111d43;
+    --secundario: #ff8b00;
+    --terciario: #e9f5fb;
+    --textoOscuro: #333333;
+    --textoClaro: #e9f5fb;
+}
