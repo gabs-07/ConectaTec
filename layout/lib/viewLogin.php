@@ -8,7 +8,7 @@ function generarFormularioLogin() {
 
     <div class="formulario">
         <h1>Bienvenido</h1>
-        <form action="/submit" method="post">
+        <form action="viewLogin.php" method="post">
             <!-- Correo -->
             <label for="email">Correo electrónico:</label>
             <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>

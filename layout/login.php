@@ -6,6 +6,7 @@ function incluirRecursos() {
 
     include('lib/viewBarraCorto.php');
     include('lib/viewLogin.php');
+    include('confg/conexion.php');
 }
 // Llamar la función para incluir los recursos
 incluirRecursos();
